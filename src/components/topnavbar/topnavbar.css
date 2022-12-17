@@ -1,0 +1,83 @@
+.topnavbarContainer {
+  height: 100px;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.topnavbarLeft {
+  flex: 4;
+}
+
+.topnavbarLogo {
+  font-size: 28px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.searchbar {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbarIcon {
+  font-size: 30px !important;
+  margin-left: 15px;
+}
+
+.searchbarInput {
+  border: none;
+  width: 66%;
+  font-size: 24px;
+}
+
+.searchbarInput:focus {
+  outline: none;
+}
+
+.topnavbarCenter {
+  flex: 4;
+}
+
+.topnavbarRight {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+
+.topnavbarLink {
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.topnavbarIcons {
+  display: flex;
+}
+
+.topnavbarIcon {
+  margin-right: 20px;
+  font-size: 10px !important;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+}
+
+.topnavbarUsername {
+  margin-left: 2px;
+  outline: none;
+  font-size: 20px;
+  align-items: center;
+}
